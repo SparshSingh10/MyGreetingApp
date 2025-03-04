@@ -9,4 +9,7 @@ public interface IGreetingService {
     GreetingDTO addGreeting(UserDTO user);
     GreetingDTO getGreetingById(long id);
     List<GreetingDTO> getAllGreetings();
+    GreetingDTO updateGreeting(long id, String message);
+
+
 }

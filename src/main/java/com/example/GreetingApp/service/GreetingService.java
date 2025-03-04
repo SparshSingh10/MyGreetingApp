@@ -35,4 +35,15 @@ public class GreetingService implements IGreetingService {
                 .map(greeting -> new GreetingDTO(greeting.getId(), greeting.getMessage()))
                 .collect(Collectors.toList());
     }
+    @Override
+    public GreetingDTO updateGreeting(long id, String message) {
+        return greetingRepository.findById(id)
+                .map(existingGreeting -> {
+                    existingGreeting.setMessage(message);
+                    return greetingRepository.save(existingGreeting);
+                })
+                .orElseThrow(() -> new RuntimeException("Greeting not found with id: " + id));
+    }
+
+
 }
