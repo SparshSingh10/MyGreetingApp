@@ -6,6 +6,9 @@ import com.example.GreetingApp.repository.GreetingRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 @Service
 public class GreetingService implements IGreetingService {
     private static final String template = "Hello, %s!";
@@ -24,5 +27,12 @@ public class GreetingService implements IGreetingService {
     public GreetingDTO getGreetingById(long id) {
         return greetingRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Greeting not found with id: " + id));
+    }
+    @Override
+    public List<GreetingDTO> getAllGreetings() {
+        return greetingRepository.findAll()
+                .stream()
+                .map(greeting -> new GreetingDTO(greeting.getId(), greeting.getMessage()))
+                .collect(Collectors.toList());
     }
 }

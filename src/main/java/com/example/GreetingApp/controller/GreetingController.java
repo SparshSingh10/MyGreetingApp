@@ -6,6 +6,8 @@ import com.example.GreetingApp.service.IGreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/greetings")
 public class GreetingController {
@@ -24,5 +26,9 @@ public class GreetingController {
     @GetMapping("/{id}")
     public GreetingDTO getGreetingById(@PathVariable(value = "id") long id) {
         return greetingService.getGreetingById(id);
+    }
+    @GetMapping("")
+    public List<GreetingDTO> getAllGreetings() {
+        return greetingService.getAllGreetings();
     }
 }
