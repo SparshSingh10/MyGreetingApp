@@ -10,6 +10,6 @@ public interface IGreetingService {
     GreetingDTO getGreetingById(long id);
     List<GreetingDTO> getAllGreetings();
     GreetingDTO updateGreeting(long id, String message);
-
+    void deleteGreeting(long id);
 
 }

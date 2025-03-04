@@ -45,5 +45,12 @@ public class GreetingService implements IGreetingService {
                 .orElseThrow(() -> new RuntimeException("Greeting not found with id: " + id));
     }
 
+    @Override
+    public void deleteGreeting(long id) {
+        if (!greetingRepository.existsById(id)) {
+            throw new RuntimeException("Greeting not found with ID: " + id);
+        }
+        greetingRepository.deleteById(id);
+    }
 
 }
