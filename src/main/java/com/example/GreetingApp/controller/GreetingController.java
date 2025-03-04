@@ -12,10 +12,16 @@ import org.springframework.web.bind.annotation.*;
         private GreetingService greetingService;
 
 
-    @GetMapping
-    public GreetingDTO getGreeting() {
-        return new GreetingDTO("Hello, World!");
-    }
+//    @GetMapping
+//    public GreetingDTO getGreeting() {
+//        return new GreetingDTO("Hello, World!");
+//    }
+
+        @GetMapping()
+        public GreetingDTO getGreeting(@RequestParam(value = "firstName", defaultValue = "", required = false) String firstName, @RequestParam(value = "lastName", defaultValue = "", required = false) String lastName) {
+            return new GreetingDTO("Hello World " + firstName + " " + lastName);
+        }
+//        http://localhost:8080/greetings?firstName=Sparsh&lastName=Singh
 
     @PostMapping
     public GreetingDTO createGreeting(@RequestBody GreetingDTO greeting) {
