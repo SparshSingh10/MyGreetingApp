@@ -1,11 +1,17 @@
 package com.example.GreetingApp.controller;
 
 import com.example.GreetingApp.dto.GreetingDTO;
+import com.example.GreetingApp.service.GreetingService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
     @RestController
     @RequestMapping("/greetings")
 
     public class GreetingController {
+        @Autowired
+        private GreetingService greetingService;
+
+
     @GetMapping
     public GreetingDTO getGreeting() {
         return new GreetingDTO("Hello, World!");
@@ -26,4 +32,8 @@ import org.springframework.web.bind.annotation.*;
         return new GreetingDTO("Deleted");
     }
 
+        @GetMapping("/simple")
+        public GreetingDTO getSimpleGreeting() {
+            return new GreetingDTO(greetingService.getSimpleGreet());
+        }
 }
