@@ -6,9 +6,6 @@ spring.datasource.username=sa
 spring.datasource.password=
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 spring.jpa.hibernate.ddl-auto=create
-springdoc.api-docs.enabled=true
-springdoc.swagger-ui.enabled=true
-
 # Enabling H2 Console
 spring.h2.console.enabled=true
 # Custom H2 Console URL

@@ -1,0 +1,180 @@
+2025-03-05 16:11:07.271774+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID [42001-232]
+2025-03-05 16:11:10.100260+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:28.262271+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:28.898905+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:29.567096+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:30.045915+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:30.544511+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:30.926119+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:31.150059+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:31.508724+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:31.973140+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:32.197117+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:32.423975+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:33.145070+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:33.343823+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:33.575452+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:33.786739+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:34.004879+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:34.499440+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:34.966241+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:35.203979+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:35.443245+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:35.716006+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:35.954155+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:36.185773+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:36.424216+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:36.669087+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:36.900565+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:37.106550+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:37.334540+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:42.125253+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:43.417167+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:50.659097+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:51.328216+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:53.232794+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:53.916598+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:54.477937+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:56.286883+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:57.175699+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:57.752181+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:58.360059+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:58.872545+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:11:59.445867+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:12:00.038173+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:12:00.596326+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:12:02.779309+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:12:03.354671+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:12:03.933068+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:12:04.506397+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:12:05.209942+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:12:05.739461+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:12:06.191104+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:12:06.630045+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:12:07.033146+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:12:07.299354+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:12:07.527065+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL [42001-232]
+2025-03-05 16:12:10.869128+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL EMAIL [42001-232]
+2025-03-05 16:12:11.503490+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL EMAIL [42001-232]
+2025-03-05 16:12:11.985985+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL EMAIL [42001-232]
+2025-03-05 16:12:12.402727+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USER_ID USER_ID EMAIL EMAIL"; expected "UPDATE"; SQL statement:
+USER_ID USER_ID EMAIL EMAIL [42001-232]

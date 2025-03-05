@@ -42,4 +42,5 @@ public class GreetingController {
         greetingService.deleteGreeting(id);
         return "Greeting deleted successfully";
     }
+
 }
