@@ -61,4 +61,28 @@ public class AuthenticationService implements IAuthenticationService {
             throw new UserException("Sorry! Email or Password is incorrect!");
         }
     }
+    @Override
+    public void forgotPassword(String email, String newPassword) {
+        Optional<AuthUser> user = Optional.ofNullable(authUserRepository.findByEmail(email));
+        if (user.isEmpty()) {
+            throw new RuntimeException("Sorry! We cannot find the user email: "); // Convert to RuntimeException
+        }
+        user.get().setPassword(passwordEncoder.encode(newPassword));
+        authUserRepository.save(user.get());
+    }
+
+
+    @Override
+    public void resetPassword(String email, String currentPassword, String newPassword) {
+        Optional<AuthUser> user = Optional.ofNullable(authUserRepository.findByEmail(email));
+        if (user.isEmpty()) {
+            throw new RuntimeException("User not found with email: " + email);
+        }
+        if (!passwordEncoder.matches(currentPassword, user.get().getPassword())) {
+            throw new RuntimeException("Current password is incorrect!");
+        }
+        user.get().setPassword(passwordEncoder.encode(newPassword));
+        authUserRepository.save(user.get());
+    }
+
 }

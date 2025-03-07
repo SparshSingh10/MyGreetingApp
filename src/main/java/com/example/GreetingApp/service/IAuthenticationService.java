@@ -8,4 +8,6 @@ import com.example.GreetingApp.model.AuthUser;
 public interface IAuthenticationService {
     AuthUser register(AuthUserDTO userDTO) throws Exception;
     String login(LoginDTO loginDTO) throws UserException;
+    void forgotPassword(String email, String newPassword);
+    void resetPassword(String email, String currentPassword, String newPassword);
 }

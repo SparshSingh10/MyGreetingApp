@@ -5,16 +5,14 @@ import jakarta.validation.Valid;
 import com.example.GreetingApp.dto.AuthUserDTO;
 import com.example.GreetingApp.dto.LoginDTO;
 import com.example.GreetingApp.dto.ResponseDTO;
+import com.example.GreetingApp.dto.PasswordResetDTO;
 import com.example.GreetingApp.model.AuthUser;
 import com.example.GreetingApp.service.EmailSenderService;
 import com.example.GreetingApp.service.IAuthenticationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/auth")
@@ -47,4 +45,16 @@ public class UserRegistrationController {
             return new ResponseEntity<>(new ResponseDTO("Login failed!!"+e.getMessage(), loginDTO), HttpStatus.BAD_REQUEST);
         }
     }
+    @PutMapping("/forgotPassword/{email}")
+    public ResponseEntity<ResponseDTO> forgotPassword(@PathVariable String email, @RequestBody PasswordResetDTO passwordResetDTO) {
+        authenticationService.forgotPassword(email, passwordResetDTO.getPassword());
+        return ResponseEntity.ok(new ResponseDTO("Password has been changed successfully!", email));
+    }
+
+    @PutMapping("/resetPassword/{email}")
+    public ResponseEntity<ResponseDTO> resetPassword(@PathVariable String email, @RequestBody PasswordResetDTO passwordResetDTO) {
+        authenticationService.resetPassword(email, passwordResetDTO.getCurrentPassword(), passwordResetDTO.getNewPassword());
+        return ResponseEntity.ok(new ResponseDTO("Password reset successfully!", email));
+    }
+
 }
